@@ -29,7 +29,7 @@ export function Player() {
               />
             </div>
           </div>
-          <aside className="w-80 absolute top-0 bottom-0 right-0 border-l border-zinc-800 bg-zinc-900 overflow-y-auto scrollbar scrollbar-thin scrollbar-track-zinc-900 scrollbar-thumb-zinc-700 divide-y-2 divide-zinc-900">
+          <aside className="w-80 absolute top-0 bottom-0 right-0 border-l border-zinc-800 bg-zinc-900 overflow-y-auto scrollbar-thin scrollbar-track-zinc-900 scrollbar-thumb-zinc-700 divide-y-2 divide-zinc-900">
             <div>
               <button className="flex w-full items-center gap-3 bg-zinc-800 p-4">
                 <div className="flex h-10 w-10 rounded-full items-center justify-center bg-zinc-950 text-xs">
