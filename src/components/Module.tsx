@@ -35,7 +35,6 @@ export function Module({ title, lessonsAmount, moduleIndex }: ModuleProps) {
               duration={lesson.duration}
             />
           ))}
-          <Lesson title="Avançando com Zustand" duration="15:02" />
         </nav>
       </Collapsible.Content>
     </Collapsible.Root>
