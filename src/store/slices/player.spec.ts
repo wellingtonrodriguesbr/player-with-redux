@@ -3,9 +3,10 @@ import { player as reducer, play, next } from "./player";
 
 const exampleInitialState = {
   course: {
+    id: 1,
     modules: [
       {
-        id: "1",
+        id: 1,
         title: "Iniciando com React",
         lessons: [
           { id: "Jai8w6K_GnY", title: "CSS Modules", duration: "13:45" },
@@ -17,7 +18,7 @@ const exampleInitialState = {
         ],
       },
       {
-        id: "2",
+        id: 1,
         title: "Estrutura da aplicação",
         lessons: [
           {
