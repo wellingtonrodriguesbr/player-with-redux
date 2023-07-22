@@ -34,7 +34,9 @@ export function Player() {
           </button>
         </div>
         <main className="relative flex overflow-hidden rounded-lg border border-zinc-800 bg-zinc-900 shadow pr-80">
-          <Video />
+          <div className="flex-1">
+            <Video />
+          </div>
           <aside className="w-80 absolute top-0 bottom-0 right-0 border-l border-zinc-800 bg-zinc-900 overflow-y-auto scrollbar-thin scrollbar-track-zinc-900 scrollbar-thumb-zinc-700 divide-y-2 divide-zinc-900">
             {modules &&
               modules.map((module, index) => (
